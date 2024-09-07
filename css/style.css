@@ -86,7 +86,7 @@ header .resaux .right a:hover {
 
 .banner {
     background-image: url(/images/banner.jpg);
-    background-color: rgb(75, 72, 72);
+    /* background-color: rgb(75, 72, 72); */
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -94,7 +94,7 @@ header .resaux .right a:hover {
 }
 .banner .texte  {
     text-align: justify;
-    padding: 90px 70px;
+    padding: 120px 70px;
     color: white;
 }
 .banner .texte h1 {
@@ -114,7 +114,7 @@ header .resaux .right a:hover {
 .boites .gau{
     background-color: rgb(255, 0, 0);
     margin-top: -30px;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -155,14 +155,14 @@ header .resaux .right a:hover {
     margin-left: 25px;
 }
 .boites .droit .composant {
-   margin-right: 27px;
+   margin-right: 26px;
    /* border: solid 1px; */
 }
 .boites .droit .composant a {
     text-decoration: none;
 }
 .boites .droit img {
-    width: 300px;
+    width: 320px;
     height: 180px;
     margin-top: 10px;
     margin-bottom: 20px;   
@@ -206,6 +206,12 @@ header .resaux .right a:hover {
     border: solid 0px !important;
     text-transform: uppercase;
     font-weight: bold;
+    transition: 0,5s;
+}
+.img .do button:hover {
+    color: white;
+    background-color: red;
+    transition: 0.5s;
 }
 
 .boites {
@@ -244,6 +250,9 @@ header .resaux .right a:hover {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+.courses .composition .blocos a {
+    text-decoration: none;
+}
 
 .courses .composition .blocos {
     margin-top:40px;
@@ -276,9 +285,10 @@ header .resaux .right a:hover {
     padding: 10px 20px;
     border-radius: 50px;
     border: solid 0px !important;
-    
+    transition: .5s;
     font-weight: bold;
 }
+
 
 .section .imtext h4 {
     font-size: 40px;
@@ -294,7 +304,13 @@ header .resaux .right a:hover {
     border: solid 0px !important;
     text-transform: uppercase;
     font-weight: bold;
+    color: #000;
     background-color: red;
+    transition: .5s;
+}
+.section .text button:hover {
+    transition: .5s;
+    background-color: rgb(12, 12, 12);
 }
 
 footer{
